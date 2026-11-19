@@ -47,7 +47,7 @@ void checkmemberdetails(void);
 void loadbook(void);
 void loadmember(void);
 void loadissue(void);
-
+void freelibrary(void);
 
 #endif
 

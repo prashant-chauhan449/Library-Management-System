@@ -54,10 +54,7 @@ int main()
                 goto mainmenu;
 
             case 5:
-                free(book);
-                free(member);
-                free(issue);
-                exit(0);
+                freelibrary();
 
             default:
                 printf("Enter valid choice\n");

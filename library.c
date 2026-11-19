@@ -916,3 +916,10 @@ void checkmemberdetails(void)
         printf("No previous returned books.\n");
     }
 }
+
+void freelibrary(void)
+{
+    free(book);
+    free(member);
+    free(issue);
+}
